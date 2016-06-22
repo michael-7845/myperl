@@ -1,0 +1,65 @@
+====Summary Report====
+Scenario Name: C:\testScript\Result_data\download\2vuser\scenario\Scenario_2.lrs 
+Results in Session: C:\Documents and Settings\Administrator\Local Settings\Temp\res\res.lrr 
+Duration: 5 minutes and 42 seconds. 
+
+Statistics Summary 
+
+Maximum Running Vusers:  200 
+Total Throughput (bytes):   3,747,044,606 
+Average Throughput (bytes/second):   10,924,328 
+Total Hits:   75,556 
+Average Hits per Second:   220.28   View HTTP Responses Summary 
+Total Errors:   539 
+
+You can define SLA data using the SLA configuration wizard 
+You can analyze transaction behavior using the Analyze Transaction mechanism 
+ 
+
+ Transaction Summary  
+
+Transactions: Total Passed: 75,994 Total Failed: 16 Total Stopped: 25          Average Response Time 
+
+Transaction Name SLA Status Minimum Average Maximum Std. Deviation 90 Percent Pass Fail Stop 
+Action_Transaction   0.032 2.032 55.202 2.469 4.324 25,205 8 21 
+downloadFile   0.001 0.808 51.415 1.921 3.084 25,166 0 1 
+vuser_end_Transaction   0 0 0.001 0 0 200 0 0 
+vuser_init_Transaction   0 0.002 0.037 0.005 0.004 200 0 0 
+µÇÂ¼   0.006 0.847 22.061 1.34 1.93 25,223 8 3 
+
+Service Level Agreement Legend:  Pass  Fail  No Data 
+
+HTTP Responses Summary 
+
+HTTP Responses Total Per second 
+HTTP_200 73,862 215.341 
+HTTP_404 1,694 4.939 
+
+
+====Summary Report End====
+====Connections====
+Color	Scale	Measurement	Graph's Minimum	Graph's Average	Graph's Maximum	Graph's Median	Graph's Std. Deviation
+True	1	Connections	0	330.318	383	363	93.965
+====Connections End====
+====Connections Per Second====
+Color	Scale	Measurement	Graph's Minimum	Average	Graph's Maximum	Graph's Median	Graph's Std. Deviation
+True	1	Connection Shutdowns	58.5	147.259	183.875	150.625	19.546	
+True	1	New Connections	70.5	147.259	172.625	150.375	18.436
+====Connections Per Second End====
+====Transactions Per Second====
+Color	Scale	Measurement	Graph Minimum	Average	Graph Maximum	Graph Median	Graph Std. Deviation
+True	1	Action_Transaction:Fail	0	0.023	0.25	0	0.056	
+True	1	Action_Transaction:Pass	35.5	73.484	85.5	74.875	9.265	
+True	1	Action_Transaction:Stop	0	0.061	3	0	0.452	
+True	1	downloadFile:Pass	37.714	73.37	85.125	74.625	9.082	
+True	1	downloadFile:Stop	0	0.003	0.143	0	0.022	
+True	1	vuser_end_Transaction:Pass	0	0.583	11.714	0	2.431	
+True	1	vuser_init_Transaction:Pass	0	0.583	12.5	0	2.265	
+True	1	µÇÂ¼:Fail	0	0.023	0.25	0	0.056	
+True	1	µÇÂ¼:Pass	34.286	73.536	85.75	74.5	9.089	
+True	1	µÇÂ¼:Stop	0	0.009	0.429	0	0.065
+====Transactions Per Second End====
+====Pages Downloaded Per Second====
+Color	Scale	Measurement	Graph Minimum	Average	Graph Maximum	Graph Median	Graph Std. Deviation
+True	1	Pages	17.875	73.525	87.25	74.875	10.565
+====Pages Downloaded Per Second End====
